@@ -1,0 +1,10 @@
+{
+    "name": "ai-tester",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "cd server && yarn start",
+      "build": "cd client && yarn build",
+      "install": "cd client && yarn install && cd ../server && yarn install"
+    }
+  }
